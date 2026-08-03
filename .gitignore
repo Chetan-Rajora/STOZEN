@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules
+npm-debug.log*
+
+# Expo
+.expo
+.expo-shared
+
+# Environment
+.env
+.env.*
+
+# Logs
+logs
+*.log
+
+# Build
+dist
+build
+
+# IDE
+.vscode/settings.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Database
+*.db
