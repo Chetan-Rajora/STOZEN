@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     width: "100%",
     marginBottom: Spacing.md,
   },
-
   input: {
     backgroundColor: "#fff",
     borderWidth: 1,

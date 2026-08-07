@@ -11,6 +11,8 @@ import InputField from "../components/common/InputField";
 import PrimaryButton from "../components/common/PrimaryButton";
 import { Colors, Spacing, Typography } from "../theme";
 
+import { router } from "expo-router";
+
 export default function LoginScreen() {
   const [mobile, setMobile] = useState("");
   const [password, setPassword] = useState("");
@@ -52,7 +54,7 @@ export default function LoginScreen() {
 
         <PrimaryButton
           title="Login"
-          onPress={() => {}}
+          onPress={() => router.push("/setup-store")}
         />
 
         <TouchableOpacity style={styles.signup}>
