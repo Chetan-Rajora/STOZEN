@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://192.168.2.228:8080";
+const API_BASE_URL = "https://stozen-backend.onrender.com";
 
 export async function getProducts() {
   const response = await fetch(`${API_BASE_URL}/api/products`);

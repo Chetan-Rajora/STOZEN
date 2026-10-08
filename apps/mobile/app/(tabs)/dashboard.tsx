@@ -24,7 +24,7 @@ export default function DashboardScreen() {
         <StatCard
           icon="📦"
           title="Products"
-          value="245"
+          value="355"
         />
 
         <StatCard
